@@ -1134,9 +1134,8 @@ TARGET_DEVICES += etactica_eg200
 define Device/embstar
   SOC := qca9531
   DEVICE_VENDOR := Embstar
-  DEVICE_MODEL := QCA9531 
-  DEVICE_PACKAGES := kmod-usb2 kmod-ath10k-ct ath10k-firmware-qca9887-ct
-  IMAGE_SIZE := 16000k
+  DEVICE_MODEL := QCA9533
+  IMAGE_SIZE := 8000k
   SUPPORTED_DEVICES += embstar 
 endef
 TARGET_DEVICES += embstar
